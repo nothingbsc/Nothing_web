@@ -75,7 +75,7 @@ import {
               fontWeight={600}
               color={'white'}
               bg={'pink.400'}
-              href={'https://t.me/nothingcoinbsc'}
+              href={'https://t.me/nothingprotocolbsc'}
               _hover={{
                 bg: 'pink.300',
               }}>
@@ -269,7 +269,12 @@ import {
         {
           label: 'Twitter',
           subLabel: 'Follow us on Twitter',
-          href: 'https://twitter.com/nothingcoinbsc',
+          href: 'https://twitter.com/nothingprotocolbsc',
+        },
+        {
+          label: 'Litepaper',
+          subLabel: 'Take a look at our Litepaper',
+          href: 'https://nothingprotocol.gitbook.io/litepaper/',
         },
         {
             label: 'Email',
