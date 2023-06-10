@@ -22,10 +22,9 @@ import {
     heading: string;
     description: string;
     icon: ReactElement;
-    href: string;
   }
   
-  const Card = ({ heading, description, icon, href }: CardProps) => {
+  const Card = ({ heading, description, icon }: CardProps) => {
     return (
       <Box
         maxW={{ base: 'full', md: '275px' }}
@@ -76,7 +75,6 @@ import {
               description={
                 'A hard working dev and active mods.'
               }
-              href={'#'}
             />
             <Card
               heading={'Community'}
@@ -84,7 +82,6 @@ import {
               description={
                 'Profit sharing with the community, rewarding active members.'
               }
-              href={'#'}
             />
             <Card
               heading={'Profit Share'}
@@ -92,7 +89,6 @@ import {
               description={
                 'A small percentage of each launch given as a reward to our holders'
               }
-              href={'#'}
             />
             <Card
               heading={'Professional'}
@@ -100,15 +96,13 @@ import {
               description={
                 'Always professional, website + twitter prelaunch, renounced & locked.'
               }
-              href={'#'}
             />
             <Card
               heading={'Safe'}
               icon={<Icon as={FcSafe} w={10} h={10} />}
               description={
-                'Tax never more than 10% after launch volumeS.'
+                'Tax never more than 10% after launch volume.'
               }
-              href={'#'}
             />
           </Flex>
         </Container>
