@@ -12,7 +12,7 @@ import {
   useColorModeValue,
   createIcon,
 } from '@chakra-ui/react';
-import logo from './Nothing.png';
+import logo from './Nothing_Animation.gif';
 
 export default function Hero() {
   return (
