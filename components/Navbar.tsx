@@ -269,7 +269,7 @@ import {
         {
           label: 'Twitter',
           subLabel: 'Follow us on Twitter',
-          href: 'https://twitter.com/nothingprotocolbsc',
+          href: 'https://twitter.com/nothingcoinbsc',
         },
         {
           label: 'Litepaper',
