@@ -60,15 +60,15 @@ import {
     return (
       <Box p={50}>
         <Stack spacing={4} as={Container} maxW={'3xl'} textAlign={'center'}>
-          <Heading fontSize={{ base: '2xl', sm: '4xl' }} fontWeight={'bold'}>
+          <Heading fontSize={{ base: '2xl', sm: '4xl' }} fontWeight={'bold'} color="white">
             What We Offer
           </Heading>
-          <Text color={'gray.600'} fontSize={{ base: 'sm', sm: 'lg' }}>
+          <Text color="white" fontSize={{ base: 'sm', sm: 'lg' }}>
             BSC has become a space of short term investment opportunities. We want to change that over time.
           </Text>
         </Stack>
   
-        <Container maxW={'5xl'} mt={12}>
+        <Container maxW={'5xl'} mt={12} color="white">
           <Flex flexWrap="wrap" gridGap={6} justify="center">
             <Card
               heading={'Supportive'}

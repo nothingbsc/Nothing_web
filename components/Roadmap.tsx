@@ -27,8 +27,8 @@ const milestones = [
   {
     id: 3,
     date: 'TBA',
-    title: 'Launch Next Project',
-    description: 'A follow up project benefiting active members and holders.'
+    title: 'Create The Raffle LaunchPad',
+    description: 'Follow up projects beneifting holders and active community members.'
   }
 ];
 
@@ -38,7 +38,7 @@ const Roadmap = () => {
 
   return (
     <Container maxWidth="7xl" p={{ base: 2, sm: 10 }}>
-      <chakra.h3 fontSize="4xl" fontWeight="bold" mb={18} textAlign="center">
+      <chakra.h3 fontSize="4xl" fontWeight="bold" color="white" mb={18} textAlign="center">
         Roadmap
       </chakra.h3>
       {milestones.map((milestone) => (

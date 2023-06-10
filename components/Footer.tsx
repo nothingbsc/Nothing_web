@@ -101,8 +101,8 @@ import {
     return (
       <Box
         pt={20}
-        bg={useColorModeValue('gray.50', 'gray.900')}
-        color={useColorModeValue('gray.700', 'gray.200')}>
+        bg={useColorModeValue('black', 'black')}
+        color={useColorModeValue('white', 'white')}>
         <Container
           as={Stack}
           maxW={'6xl'}
@@ -112,12 +112,12 @@ import {
           justify={{ base: 'center', md: 'space-between' }}
           align={{ base: 'center', md: 'center' }}>
           <Logo />
-          <Text>© 2023 Nothing Crypto . All rights reserved</Text>
+          <Text>© 2023 Nothing Protocol . All rights reserved</Text>
           <Stack direction={'row'} spacing={6}>
             <SocialButton label={'Twitter'} href={'https://twitter.com/nothingcoinbsc'}>
               <FaTwitter />
             </SocialButton>
-            <SocialButton label={'Telegram'} href={'https://t.me/nothingcoinbsc'}>
+            <SocialButton label={'Telegram'} href={'https://t.me/nothingprotocolbsc'}>
               <FaTelegram/>
             </SocialButton>
           </Stack>

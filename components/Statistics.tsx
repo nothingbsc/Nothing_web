@@ -26,6 +26,7 @@ function StatsCard(props: StatsCardProps) {
       py={'5'}
       shadow={'xl'}
       border={'1px solid'}
+      color="white"
       borderColor={useColorModeValue('gray.800', 'gray.500')}
       rounded={'lg'}>
       <Flex justifyContent={'space-between'}>
@@ -39,7 +40,7 @@ function StatsCard(props: StatsCardProps) {
         </Box>
         <Box
           my={'auto'}
-          color={useColorModeValue('gray.800', 'gray.200')}
+          color={useColorModeValue('white', 'gray.200')}
           alignContent={'center'}>
           {icon}
         </Box>
@@ -55,11 +56,12 @@ export default function Statistics() {
         textAlign={'center'}
         fontSize={'4xl'}
         py={10}
+        color="white"
         fontWeight={'bold'}>
         Investing In Crypto Isn't Easy
       </chakra.h1>
       <SimpleGrid columns={{ base: 1, md: 3 }} spacing={{ base: 5, lg: 8 }}>
-        <StatsCard
+        <StatsCard 
           title={'Cryptos Fail'}
           stat={'99.9%'}
           icon={<BsPerson size={'3em'} />}

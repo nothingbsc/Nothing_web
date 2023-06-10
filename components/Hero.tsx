@@ -1,7 +1,9 @@
 import Head from 'next/head';
 import {
+
   Box,
   Heading,
+  Image,
   Container,
   Text,
   Button,
@@ -10,6 +12,7 @@ import {
   useColorModeValue,
   createIcon,
 } from '@chakra-ui/react';
+import logo from './Nothing.png';
 
 export default function Hero() {
   return (
@@ -27,10 +30,13 @@ export default function Hero() {
           textAlign={'center'}
           spacing={{ base: 8, md: 14 }}
           py={{ base: 20, md: 36 }}>
+            <Image src={logo.src} alt='Nothing Logo' />
           <Heading
             fontWeight={600}
             fontSize={{ base: '2xl', sm: '4xl', md: '6xl' }}
-            lineHeight={'110%'}>
+            lineHeight={'110%'}
+            color='white'
+            >
             Crypto Is <Text as={'span'} color={'green.400'}>Nothing</Text> Without <br />
             <Text as={'span'} color={'green.400'}>
               Community.
