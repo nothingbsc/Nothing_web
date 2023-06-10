@@ -43,6 +43,7 @@ import {
             display={{ base: 'flex', md: 'none' }}>
             <IconButton
               onClick={onToggle}
+              color={'white'}
               icon={
                 isOpen ? <CloseIcon w={3} h={3} /> : <HamburgerIcon w={5} h={5} />
               }
