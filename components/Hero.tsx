@@ -12,7 +12,7 @@ import {
   useColorModeValue,
   createIcon,
 } from '@chakra-ui/react';
-import logo from './Nothing_Animation.gif';
+import logo from './Nothing Animation Big (1000 × 1000px).gif';
 
 export default function Hero() {
   return (
@@ -23,14 +23,13 @@ export default function Hero() {
           rel="stylesheet"
         />
       </Head>
-
       <Container maxW={'3xl'}>
         <Stack
           as={Box}
           textAlign={'center'}
           spacing={{ base: 8, md: 14 }}
           py={{ base: 20, md: 36 }}>
-            <Image src={logo.src} alt='Nothing Logo' />
+            <Image src={logo.src} display="maxh" alt='Nothing_Animation.gif' />
           <Heading
             fontWeight={600}
             fontSize={{ base: '2xl', sm: '4xl', md: '6xl' }}
@@ -43,7 +42,7 @@ export default function Hero() {
             </Text>
           </Heading>
           <Text color={'gray.500'}>
-            Join a crypto community that rewards you for being an active member with safe launches with profits being reinvested in the community.
+            Join a crypto community that rewards you for being an active member with <Text as={'span'} color={'green.400'}>safe launches</Text> and <Text as={'span'} color={'green.400'}>profits</Text> being <Text as={'span'} color={'green.400'}>reinvested</Text> in the community.
           </Text>
         </Stack>
       </Container>

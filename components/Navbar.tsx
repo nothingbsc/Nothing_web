@@ -55,7 +55,7 @@ import {
             <Text
               textAlign={useBreakpointValue({ base: 'center', md: 'left' })}
               fontFamily={'heading'}
-              color={useColorModeValue('gray.800', 'white')}>
+              color={useColorModeValue('gray.300', 'white')}>
             
             </Text>
   
@@ -93,7 +93,7 @@ import {
   }
   
   const DesktopNav = () => {
-    const linkColor = useColorModeValue('gray.200', 'gray.200');
+    const linkColor = useColorModeValue('gray.100', 'gray.200');
     const linkHoverColor = useColorModeValue('white', 'white');
     const popoverContentBgColor = useColorModeValue('black', 'gray.800');
   
@@ -147,7 +147,7 @@ import {
         display={'block'}
         p={2}
         rounded={'md'}
-        _hover={{ bg: useColorModeValue('pink.50', 'gray.900') }}>
+        _hover={{ bg: useColorModeValue('pink.50', 'gray.300') }}>
         <Stack direction={'row'} align={'center'}>
           <Box>
             <Text
