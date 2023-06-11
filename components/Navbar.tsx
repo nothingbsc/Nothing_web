@@ -255,7 +255,7 @@ import {
         {
           label: 'Contract',
           subLabel: 'Read our code on BSCScan',
-          href: '#',
+          href: 'https://bscscan.com/token/0xe974189c7df93Ecf1B39A7Fd1F2C175CE06dc99F',
         },
         {
             label: 'Swap',
