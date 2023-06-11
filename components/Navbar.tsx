@@ -275,7 +275,7 @@ import {
         {
           label: 'Litepaper',
           subLabel: 'Take a look at our Litepaper',
-          href: 'https://nothingprotocol.gitbook.io/litepaper/',
+          href: 'https://nothingprotocol.gitbook.io/litepaper/group-1/nothing-v.-0.8-whitepaper',
         },
         {
             label: 'Email',
