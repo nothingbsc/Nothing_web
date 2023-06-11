@@ -260,7 +260,7 @@ import {
         {
             label: 'Swap',
             subLabel: 'Buy through PancakeSwap',
-            href: '#',
+            href: 'https://pancakeswap.finance/swap?outputCurrency=0xe974189c7df93Ecf1B39A7Fd1F2C175CE06dc99F',
           },
       ],
     },
