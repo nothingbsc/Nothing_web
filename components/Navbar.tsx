@@ -250,7 +250,7 @@ import {
         {
           label: 'Chart',
           subLabel: 'Check our price on Dexscreener',
-          href: '#',
+          href: 'https://dexscreener.com/bsc/0x4763a10de6e99ca04560f7cdd3cf15dcb1084cb9',
         },
         {
           label: 'Contract',
