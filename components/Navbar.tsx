@@ -268,6 +268,11 @@ import {
       label: 'Socials',
       children: [
         {
+          label: 'Telegram',
+          subLabel: 'Join Our Chat',
+          href: 'https://t.me/nothingprotocolbsc',
+        },
+        {
           label: 'Twitter',
           subLabel: 'Follow us on Twitter',
           href: 'https://twitter.com/nothingcoinbsc',
