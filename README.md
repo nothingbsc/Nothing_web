@@ -3,6 +3,6 @@
 <p align=center>Website of Nothing Crypto on BSC</p>
 
 
-This blog was created using Create Next App, utilising Chakra UI Templates: https://chakra-templates.dev/
+This website was created using Create Next App, utilising Chakra UI Templates: https://chakra-templates.dev/
 
 Technology used includes, Typescript, NextJS, CSS.
